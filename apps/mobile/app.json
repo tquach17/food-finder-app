@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Bitemap",
+    "slug": "food-finder-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#1A1A2E" },
+    "ios": { "bundleIdentifier": "com.bitemap.app", "infoPlist": { "NSLocationWhenInUseUsageDescription": "Bitemap uses your location to show trending food spots near you." } },
+    "android": { "adaptiveIcon": { "backgroundColor": "#1A1A2E" }, "package": "com.bitemap.app", "permissions": ["ACCESS_FINE_LOCATION"] },
+    "plugins": ["expo-router", "expo-location"],
+    "scheme": "bitemap",
+    "experiments": { "typedRoutes": true }
+  }
+}
